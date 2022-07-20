@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  height: calc(100vh);
+  background-image: url(../img/banner.png);
+  background-size: cover;
+  color: #ffffff;
+  position: relative;
+}
+
+.header .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.header h1 {
+  font-size: 80px;
+  line-height: 1.325;
+  margin-bottom: 32px;
+}
+
+.header h1 p {
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.header h2 {
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.about {
+  margin: 56px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 64px;
+  line-height: 1.3125;
+  margin-bottom: 40px;
+}
+
+.about img {
+  margin-bottom: 20px;
+}
+
+.about .basic-info {
+  margin-bottom: 24px;
+}
+
+.about .basic-info li {
+  font-size: 24px;
+  line-height: 1.75;
+}
+
+.about .basic-info .school-info {
+  line-height: 1.5;
+  margin-top: 8px;
+}
+
+.profession-info {
+  border-top: 1px solid #000000;
+  padding-top: 28px;
+}
+
+.profession-info li {
+  font-size: 24px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profession-info li .point {
+  background-color: #891818;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  margin: auto 0;
+  margin-right: 16px;
+}
+
+.profession-info li:last-child {
+  margin-bottom: 0;
+}
+
+.brand {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 56px 0 120px;
+}
+
+.brand h2 {
+  font-size: 64px;
+  line-height: 1.3125;
+  margin-bottom: 12px;
+}
+
+.brand h3 {
+  font-size: 24px;
+  line-height: 1.75;
+  margin-bottom: 32px;
+}
+
+.brand p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 68px;
+}
+
+.brand ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.brand ul li {
+  margin-right: 24px;
+  margin-bottom: 40px;
+}
+
+.works {
+  text-align: center;
+  padding: 56px 0 96px;
+}
+
+.works h2 {
+  font-size: 64px;
+  line-height: 1.3125;
+  margin-bottom: 16px;
+}
+
+.works p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 56px;
+}
+
+.works ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.works ul li {
+  margin-right: 24px;
+  margin-bottom: 48px;
+}
+
+.works ul h3 {
+  font-size: 20px;
+  line-height: 2.1;
+  margin-top: 16px;
+}
+
+.contact {
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  padding: 64px 0 48px;
+}
+
+.contact h2 {
+  font-size: 64px;
+  line-height: 1.3125;
+  margin-bottom: 16px;
+}
+
+.contact ul li {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.contact ul a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
