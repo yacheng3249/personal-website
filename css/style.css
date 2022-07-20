@@ -1,8 +1,14 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 img {
@@ -15,7 +21,7 @@ ul {
 
 .header {
   height: calc(100vh);
-  background-image: url(../img/banner.png);
+  background: url(../img/banner.png) center center;
   background-size: cover;
   color: #ffffff;
   position: relative;
@@ -29,15 +35,17 @@ ul {
           transform: translate(-50%, -50%);
 }
 
+.header p {
+  font-size: 24px;
+  line-height: 1.75;
+  font-weight: 700;
+}
+
 .header h1 {
   font-size: 80px;
   line-height: 1.325;
+  font-weight: 900;
   margin-bottom: 32px;
-}
-
-.header h1 p {
-  font-size: 16px;
-  line-height: 1.75;
 }
 
 .header h2 {
@@ -61,6 +69,7 @@ ul {
 .about h2 {
   font-size: 64px;
   line-height: 1.3125;
+  font-weight: 500;
   margin-bottom: 40px;
 }
 
@@ -69,6 +78,7 @@ ul {
 }
 
 .about .basic-info {
+  font-weight: 700;
   margin-bottom: 24px;
 }
 
@@ -83,8 +93,11 @@ ul {
 }
 
 .profession-info {
+  width: 384px;
+  font-weight: 700;
   border-top: 1px solid #000000;
   padding-top: 28px;
+  margin: 0 auto;
 }
 
 .profession-info li {
@@ -122,18 +135,21 @@ ul {
 .brand h2 {
   font-size: 64px;
   line-height: 1.3125;
+  font-weight: 500;
   margin-bottom: 12px;
 }
 
 .brand h3 {
   font-size: 24px;
   line-height: 1.75;
+  font-weight: 500;
   margin-bottom: 32px;
 }
 
 .brand p {
   font-size: 20px;
   line-height: 1.5;
+  font-weight: 500;
   margin-bottom: 68px;
 }
 
@@ -156,6 +172,7 @@ ul {
 }
 
 .works {
+  font-weight: 500;
   text-align: center;
   padding: 56px 0 96px;
 }
@@ -163,12 +180,14 @@ ul {
 .works h2 {
   font-size: 64px;
   line-height: 1.3125;
+  font-weight: 500;
   margin-bottom: 16px;
 }
 
 .works p {
   font-size: 20px;
   line-height: 1.5;
+  font-weight: 500;
   margin-bottom: 56px;
 }
 
@@ -191,6 +210,7 @@ ul {
 .works ul h3 {
   font-size: 20px;
   line-height: 2.1;
+  font-weight: 500;
   margin-top: 16px;
 }
 
@@ -204,12 +224,14 @@ ul {
 .contact h2 {
   font-size: 64px;
   line-height: 1.3125;
+  font-weight: 500;
   margin-bottom: 16px;
 }
 
 .contact ul li {
   font-size: 24px;
   line-height: 1.5;
+  font-weight: 500;
   margin-bottom: 16px;
 }
 
