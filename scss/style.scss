@@ -4,10 +4,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  // border: 1px solid rebeccapurple;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .style-h2 {
@@ -37,17 +43,20 @@ ul {
 }
 
 .header {
-  height: calc(100vh);
+  height: 958px;
   background: url(../img/banner.png) center center;
   background-size: cover;
   color: #ffffff;
-  position: relative;
-  .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // position: relative;
+  // .content {
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  // }
   p {
     font-size: 24px;
     line-height: 1.75;
@@ -67,6 +76,9 @@ ul {
   ul {
     display: flex;
     justify-content: space-around;
+    a:hover {
+      opacity: 0.6;
+    }
   }
 }
 
@@ -133,12 +145,12 @@ ul {
   ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 90%;
-    margin: 0 auto;
+    justify-content: space-between;
     li {
-      margin-right: 24px;
       margin-bottom: 40px;
+    }
+    li:first-child {
+      width: 100%;
     }
   }
 }
@@ -155,9 +167,8 @@ ul {
   ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     li {
-      margin-right: 24px;
       margin-bottom: 48px;
     }
     h3 {
