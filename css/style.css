@@ -130,7 +130,8 @@ ul {
           justify-content: center;
 }
 
-.profession-info li .point {
+.profession-info li::before {
+  content: "";
   background-color: #891818;
   border-radius: 50%;
   width: 22px;
